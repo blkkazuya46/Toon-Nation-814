@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      The theme for the Android app. This is used for the launch screen
+      and for the WebView fallback.
+    -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--
+          This is the color of the status bar when the app is first launched,
+          before the TWA is active.
+        -->
+        <item name="colorPrimaryDark">@color/status_bar_color</item>
+    </style>
+</resources>

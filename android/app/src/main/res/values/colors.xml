@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="status_bar_color">#db2777</color>
+    <!-- The navigation bar color is used for the bottom navigation bar on Android. -->
+    <color name="navigation_bar_color">#111827</color>
+</resources>

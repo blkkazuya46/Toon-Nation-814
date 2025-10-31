@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Toon-Nation 814</string>
+    <!--
+      This string is used to define the contents of the assetlinks.json file.
+      It enables the TWA to verify the association with your website.
+      IMPORTANT:
+      1. Replace `toon-nation-814.example.com` with your actual domain.
+      2. Generate your own `sha256_cert_fingerprints` using the following command and replace the placeholder:
+         `keytool -list -v -keystore <path-to-your-keystore> -alias <your-alias> -storepass <your-password> -keypass <your-password>`
+         For Play App Signing, you can find the SHA-256 fingerprint in the Google Play Console under your app's "App signing" page.
+    -->
+    <string name="asset_statements" translatable="false">
+        [{
+            \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+            \"target\": {
+                \"namespace\": \"web\",
+                \"site\": \"https://toon-nation-814.example.com\"
+            }
+        },
+        {
+            \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+            \"target\": {
+                \"namespace\": \"android_app\",
+                \"package_name\": \"com.example.toon_nation_814\",
+                \"sha256_cert_fingerprints\": [\"00:11:22:33:44:55:66:77:88:99:AA:BB:CC:DD:EE:FF:00:11:22:33:44:55:66:77:88:99:AA:BB:CC:DD:EE:FF\"]
+            }
+        }]
+    </string>
+</resources>

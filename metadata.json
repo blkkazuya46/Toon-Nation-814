@@ -1,0 +1,7 @@
+{
+  "name": "Toon-Nation 814",
+  "description": "Welcome to Toon-Nation 814! An application that transforms your photos into vibrant cartoons using AI. Upload an image and watch it get toonified in seconds.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
