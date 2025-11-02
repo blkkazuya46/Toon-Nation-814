@@ -1,0 +1,8 @@
+{
+  "cli": { "appVersionSource": "remote" },
+  "build": {
+    "preview": {
+      "android": { "buildType": "apk" }
+    }
+  }
+}
